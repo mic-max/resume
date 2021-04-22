@@ -4,27 +4,8 @@
 \fontdir[fonts/]
 \definecolor{awesome}{HTML}{0387c9}
 
-% Colors for text
-% Uncomment if you would like to specify your own color
-% \definecolor{darktext}{HTML}{414141}
-% \definecolor{text}{HTML}{333333}
-% \definecolor{graytext}{HTML}{5D5D5D}
-% \definecolor{lighttext}{HTML}{999999}
-
-% Set false if you don't want to highlight section with awesome color
-\setbool{acvSectionColorHighlight}{true}
-
-% If you would like to change the social information separator from a pipe (|) to something else
-%\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
-
-%-------------------------------------------------------------------------------
-%	PERSONAL INFORMATION
-%-------------------------------------------------------------------------------
-% Available options: circle|rectangle,edge/noedge,left/right
-% \photo[rectangle,edge,right]{./examples/profile}
 \name{Michael}{Maxwell}
-\position{Software Engineer{\enskip\cdotp\enskip} Seattle, Washington}
-% \address{Ottawa, Canada}
+\position{{\,}Software Engineer{\,\,\,\,\,\,\,\,\,}Seattle, Washington{\,\,\,\,\,\,}}
 
 \mobile{+1 425 623 7592}
 \email{yo@micmax.pw}
@@ -32,28 +13,14 @@
 \github{mic-max}
 \linkedin{micmax}
 
-%-------------------------------------------------------------------------------
 \begin{document}
-
-% Print the header with above personal informations
-% Give optional argument to change alignment(C: center, L: left, R: right)
 \makecvheader[C]
 
-% Print the footer with 3 arguments(<left>, <center>, <right>)
-% Leave any of these blank if they are not needed
-\makecvfooter
-  {\today}
-  {Michael Maxwell~~~·~~~Résumé}
-  {\thepage}
-
-%-------------------------------------------------------------------------------
-%	CV/RESUME CONTENT
-%-------------------------------------------------------------------------------
 \input{resume/summary.tex}
 \input{resume/skills.tex}
 \input{resume/experience.tex}
 \input{resume/projects.tex}
-\input{resume/honors.tex}
 \input{resume/education.tex}
 
+\makecvfooter{Michael Maxwell~~~·~~~Résumé}{}{Last Updated~~~·~~~\today}
 \end{document}
