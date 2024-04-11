@@ -1,4 +1,4 @@
-\ProvidesClass{micmax}[2021/04/21 v1.0.0 Curriculum Vitae Class]
+\ProvidesClass{micmax}
 \NeedsTeXFormat{LaTeX2e}
 
 %-------------------------------------------------------------------------------
@@ -90,7 +90,7 @@
 \definecolor{gray}{HTML}{5D5D5D}
 \definecolor{lightgray}{HTML}{999999}
 % Text colors
-\definecolor{darktext}{HTML}{414141}
+\definecolor{darktext}{HTML}{000000}
 \colorlet{text}{darkgray}
 \colorlet{graytext}{gray}
 \colorlet{lighttext}{lightgray}
